@@ -1,0 +1,136 @@
+/* ================= MOBILE & TABLET ================= */
+@media (max-width: 900px) {
+
+  /* ================= HEADER ================= */
+
+  /* Esconde navegação desktop */
+  .desktop {
+    display: none;
+  }
+
+  /* Esconde botão Contato do header (MOBILE) */
+  .header-right {
+    display: none;
+  }
+
+  /* Mostra botão hamburguer */
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* ================= HERO ================= */
+
+  .hero {
+    padding-top: 120px; /* evita conteúdo grudado no header */
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  .hero-text {
+    padding: 0 14px;
+  }
+
+  .hero-text p {
+    margin-top: 18px;
+    font-size: 0.95rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .hero-actions a {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ================= SECTIONS ================= */
+
+  .section {
+    padding: 90px 0;
+  }
+
+  /* ================= GRID ================= */
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+
+  /* Empilha imagem + texto */
+  .media-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  /* Imagem / vídeo primeiro */
+  .media-visual {
+    order: 1;
+    width: 100%;
+  }
+
+  /* Texto abaixo */
+  .media-content {
+    order: 2;
+    text-align: left;
+  }
+
+  .media-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .media-content p {
+    font-size: 0.95rem;
+  }
+
+  /* Botão ocupa largura total */
+  .media-content .btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .media-visual.image {
+    order: 1;
+  }
+
+  .media-visual.video {
+    order: 2;
+  }
+
+  .media-content {
+    order: 3;
+  }
+}
+
+@media (max-width: 900px) {
+  .whatsapp-float {
+    right: 18px;
+    bottom: 18px;
+    width: 54px;
+    height: 54px;
+  }
+}
+
+@media (max-width: 900px) {
+  .whatsapp-text {
+    display: none;
+  }
+}

@@ -1,0 +1,144 @@
+/* ================= HERO ================= */
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.hero h1 {
+  max-width: 900px;
+}
+
+.hero p {
+  margin: 25px 0 45px;
+}
+
+.hero-actions a {
+  margin-right: 20px;
+}
+
+/* ================= HERO COM VÍDEO ================= */
+
+.hero-video {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-bg-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.4);
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(14,14,14,0.95) 0%,
+    rgba(14,14,14,0.85) 50%,
+    rgba(14,14,14,0.6) 100%
+  );
+  z-index: 2;
+}
+
+.hero-grid {
+  position: relative;
+  z-index: 3;
+  display: grid;
+   grid-template-columns: 1fr;
+  gap: 60px;
+  align-items: center;
+    max-width: 900px;
+}
+
+.hero-text p {
+  max-width: 600px;
+}
+
+/* Card lateral do hero */
+.hero-card {
+  background: rgba(27,27,27,0.9);
+  border: 1px solid var(--gray-line);
+  padding: 40px;
+  max-width: 360px;
+  transform: translateX(-40px);
+}
+
+.hero-card-title {
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+
+.hero-card ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gray-line);
+}
+
+/* ================= SERVICES ================= */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+}
+
+/* ================= DIFFERENTIALS ================= */
+
+.differentials-list {
+  margin-top: 40px;
+  max-width: 600px;
+}
+
+.differentials-list li {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--gray-line);
+  font-size: 0.95rem;
+}
+
+/* ================= CTA ================= */
+
+.cta {
+  background: var(--bg-secondary);
+  text-align: center;
+}
+
+.cta p {
+  margin: 20px auto 40px;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+  border-top: 1px solid var(--gray-line);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 15px;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: var(--gold);
+}
+
+.hero h1 {
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+}
+
+.hero-visual {
+  display: flex;
+  justify-content: flex-end;
+}

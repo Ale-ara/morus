@@ -1,0 +1,25 @@
+:root {
+  /* ================= FUNDOS ================= */
+  --bg-main: #0e0e0e;
+  --bg-secondary: #141414;
+  --bg-overlay: rgba(14,14,14,0.85);
+
+  /* ================= TEXTO ================= */
+  --text-main: #ffffff;
+  --text-muted: #b1b1b1;
+  --text-soft: #8e8e8e;
+
+  /* ================= PREMIUM ================= */
+  --gold: #c8a95f;
+  --gold-soft: #e6d9a2;
+  --gold-dark: #9e8748;
+
+  /* ================= NEUTROS ================= */
+  --gray-line: #2a2a2a;
+  --gray-card: #1b1b1b;
+  --gray-hover: #232323;
+
+  /* ================= EFEITOS ================= */
+  --transition: 0.3s ease;
+  --radius: 6px;
+}
